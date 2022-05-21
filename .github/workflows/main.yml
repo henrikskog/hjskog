@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: login.stud.ntnu.no://public_html/test
+        ftp-server: ftp://login.stud.ntnu.no:21/public_html        
         ftp-username: hjskog
         ftp-password: ${{ secrets.FTP_PASSWORD }}
