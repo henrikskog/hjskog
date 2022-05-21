@@ -13,5 +13,5 @@ jobs:
         host: login.stud.ntnu.no
         username: hjskog
         password: ${{ secrets.FTP_PASSWORD }}
-        source: "public/*"
+        source: "public/index.html"
         target: "test"
